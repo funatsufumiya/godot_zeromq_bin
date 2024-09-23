@@ -9,8 +9,8 @@ if you need `godot_zeromq` [releases](https://github.com/funatsufumiya/godot_zer
 ```bash
 cd PROJECT_DIR_OF_YOUR_GODOT
 cd addons
-git submodule add https://github.com/funatsufumiya/godot_zeromq_bin.git osc
-# or simply: git clone https://github.com/funatsufumiya/godot_zeromq_bin.git osc
+git submodule add https://github.com/funatsufumiya/godot_zeromq_bin.git zeromq
+# or simply: git clone https://github.com/funatsufumiya/godot_zeromq_bin.git zeromq
 ```
 
 but I recommend to use `godotenv addons install`. see [GodotEnv's readme](https://github.com/chickensoft-games/GodotEnv?tab=readme-ov-file#initializing-godotenv-in-a-project). GodotEnv's `addons.jsonc` config is below (partial):
